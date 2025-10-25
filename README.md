@@ -16,23 +16,23 @@
 
 ### 📂 Structure d’exemple
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   /projet_these/  │  ├── these_modele.docx  ├── variables.json  ├── replace_vars_docx.py  └── output/      └── these_finale.docx   `
+`   /projet_these/  │  ├── these_modele.docx  ├── variables.json  ├── replace_vars_docx.py  └── output/      └── these_finale.docx   `
 
 ### 🧾 Exemple de variables (variables.json)
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   {    "auteur": "Marie Dubois",    "titre_these": "Étude des systèmes dynamiques complexes",    "universite": "Université de Toulouse",    "annee": "2025",    "directeur": "Pr. Laurent Bernard"  }   `
+`   {    "auteur": "Marie Dubois",    "titre_these": "Étude des systèmes dynamiques complexes",    "universite": "Université de Toulouse",    "annee": "2025",    "directeur": "Pr. Laurent Bernard"  }   `
 
 ### 📄 Exemple dans Word (these\_modele.docx)
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Thèse de doctorat de [[auteur]]  Titre : [[titre_these]]  Université : [[universite]]  Année : [[annee]]  Directeur : [[directeur]]   `
+   Thèse de doctorat de [[auteur]]  Titre : [[titre_these]]  Université : [[universite]]  Année : [[annee]]  Directeur : [[directeur]]   `
 
 ### 🚀 Exécution
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python replace_vars_docx.py these_modele.docx variables.json output/these_finale.docx "[[" "]]"   `
+  python replace_vars_docx.py these_modele.docx variables.json output/these_finale.docx "[[" "]]"   `
 
 ### ✅ Résultat
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Thèse de doctorat de Marie Dubois  Titre : Étude des systèmes dynamiques complexes  Université : Université de Toulouse  Année : 2025  Directeur : Pr. Laurent Bernard   `
+  Thèse de doctorat de Marie Dubois  Titre : Étude des systèmes dynamiques complexes  Université : Université de Toulouse  Année : 2025  Directeur : Pr. Laurent Bernard   `
 
 ### 🧠 Options
 
