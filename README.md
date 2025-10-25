@@ -28,7 +28,7 @@
 
 ### 🚀 Exécution
 
-  python replace_vars_docx.py these_modele.docx variables.json output/these_finale.docx "[[" "]]"   `
+  python replace_vars_docx.py modele.docx variables.json finale.docx "[[" "]]"   `
 
 ### ✅ Résultat
 
@@ -55,11 +55,11 @@ ParamètreDescriptionPar défautDocument Word modèle—Fichier JSON avec les va
 
 ### 🧩 Exemple avancé
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python replace_vars_docx.py rapport.docx data/variables.json rapport_final.docx "<<", ">>"   `
+   python replace_vars_docx.py rapport.docx data/variables.json rapport_final.docx "<<", ">>"   `
 
 Variables dans le Word :
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   <> — <>  Rédigé le <>   `
+   <> — <>  Rédigé le <>   `
 
 ### 📄 Licence
 
